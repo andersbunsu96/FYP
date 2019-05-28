@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="andersonlau.fyp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EmergencyJob"></activity>
+        <activity android:name=".record_request_chooser" />
+        <activity android:name=".viewLocation" />
+        <activity android:name=".technicianUpdateLocation" />
+        <activity android:name=".generateReport" />
+        <activity android:name=".viewReport" />
+        <activity android:name=".reportJobDone" />
+        <activity android:name=".technicianSendUpdate" />
+        <activity android:name=".technicianViewJob" />
+        <activity android:name=".assignTechnician" />
+        <activity android:name=".viewCreatedJobDetail" />
+        <activity android:name=".viewCreatedJobActivityDone" />
+        <activity android:name=".FCViewAssignmentDone" />
+        <activity android:name=".viewRecordedRequestNotDone" />
+        <activity android:name=".technicianViewJobFinishJob" />
+        <activity android:name=".viewTechnicianJobDetail" />
+        <activity android:name=".PCCreateJob" />
+        <activity android:name=".FODViewApprovedCalculation" />
+        <activity android:name=".FODViewCalculationDetail" />
+        <activity android:name=".FODViewCalculation" />
+        <activity android:name=".FCViewAssignment" />
+        <activity android:name=".PCViewAssignment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+        <activity android:name=".PCSendAssignment" />
+        <activity android:name=".recordedRequestDetailPC" />
+        <activity
+            android:name=".viewRequestPC"
+            android:label="Customer Requests" />
+        <activity android:name=".sendRequestDetail" />
+        <activity android:name=".ProjectCoordinatorViewRequest" />
+        <activity android:name=".recordedRequestDetail" />
+        <activity
+            android:name=".viewRecordedRequest"
+            android:label="Recorded Request" />
+        <activity android:name=".financialControllerViewCalculation" />
+        <activity android:name=".financialControllerSendCalculation" />
+        <activity android:name=".TechnicianDashboard" />
+        <activity android:name=".SpashActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewProgression" />
+        <activity
+            android:name=".ProjectCoordinatorDashboard"
+            android:label="Project Coordinator Dashboard" />
+        <activity
+            android:name=".ClerkDashboard"
+            android:label="Clerk Dashboard" />
+        <activity
+            android:name=".RecordCustomerRequest"
+            android:label="Record Customer Request">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+        <activity
+            android:name=".FinancialController"
+            android:label="Financial Controller Dashboard" />
+        <activity
+            android:name=".FODDashboard"
+            android:label="FOD Dashboard" />
+        <activity
+            android:name=".ViewCalculationFC"
+            android:label="View Calculation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FODDashboard" />
+        </activity>
+        <activity
+            android:name=".TeamLeaderDashboard"
+            android:label="Team Leader Dashboard" />
+        <activity
+            android:name=".create_job"
+            android:label="Create Job">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register Account" />
+        <activity
+            android:name=".AssignLeaderActivity"
+            android:label="Assign Leader">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+        <activity
+            android:name=".PCViewJobStatusActivity"
+            android:label="View Job Status">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+        <activity
+            android:name=".viewCreatedJobActivity"
+            android:label="View Created Job">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProjectCoordinatorDashboard" />
+        </activity>
+    </application>
+
+</manifest>

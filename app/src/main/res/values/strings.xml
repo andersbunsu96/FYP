@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ICIS</string>
+    <string name="SignIn">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="login_as">Logged as,&#160;</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="viewCalculation">View Calculation</string>
+    <string name="viewApprovedCalculation">View Approved Calculation</string>
+    <string name="projectTitle">Project Title</string>
+    <string name="description">Description</string>
+
+    <string-array name="userType">
+        <item>Clerk</item>
+        <item>Project Coordinator</item>
+        <item>Financial Controller</item>
+        <item>FOD</item>
+        <item>Team Leader</item>
+        <item>Technician</item>
+    </string-array>
+</resources>
